@@ -36,6 +36,7 @@ function clockingIn(){
             return n;
         }
         //Displaying results
+        document.getElementById("clockOut").innerHTML="00:00:00" ;
         document.getElementById("clockIn").innerHTML=hrs.pad(2)+":"+min.pad(2)+":"+sec.pad(2)+" "+p ;
         document.getElementById("btnIn").style.display="none";
         document.getElementById("btnOut").style.display="block";
